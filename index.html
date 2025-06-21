@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="assets/Psynux SVG.svg">
+    <title>Psynux</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="container">
+            <div class="logo">
+                <img src="assets/Psynux SVG.svg" alt="Psynux Software Logo">
+            </div>
+            <div class="nav-links">
+                <a href="#contact" class="contact-btn">Contact Us</a>
+            </div>
+        </div>
+    </nav>
+
+    <main class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <div class="animated-text">
+                    <h1>COMMING <span class="highlight">SOON</span></h1>
+                    <!-- <h1>Innovation <span class="highlight">Redefined</span></h1> -->
+                </div>
+                <p class="subtitle">We're rebuilding with purpose and precision. Prepare to experience the new version of <b>Psynux Software</b>.</p>
+                <div class="launch-timer">
+                    <div class="timer-item">
+                        <div class="timer-circle">
+                            <span id="days">00</span>
+                        </div>
+                        <p>Days</p>
+                    </div>
+                    <div class="timer-item">
+                        <div class="timer-circle">
+                            <span id="hours">00</span>
+                        </div>
+                        <p>Hours</p>
+                    </div>
+                    <div class="timer-item">
+                        <div class="timer-circle">
+                            <span id="minutes">00</span>
+                        </div>
+                        <p>Minutes</p>
+                    </div>
+                    <div class="timer-item">
+                        <div class="timer-circle">
+                            <span id="seconds">00</span>
+                        </div>
+                        <p>Seconds</p>
+                    </div>
+                </div>
+                <div class="newsletter">
+                    <h3>Stay Updated</h3>
+                    <p>Be the first to know when we launch</p>
+                    <form class="notify-form">
+                        <div class="input-group">
+                            <input type="email" placeholder="Enter your email address" required>
+                            <button type="submit">Notify Me</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="hero-shapes">
+            <div class="shape shape-1"></div>
+            <div class="shape shape-2"></div>
+            <div class="shape shape-3"></div>
+        </div>
+    </main>
+
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="contact-content">
+                <h2>Get in Touch</h2>
+                <p>Have questions? We'd love to hear from you.</p>
+                <form class="contact-form">
+                    <div class="form-row">
+                        <div class="form-group">
+                            <input type="text" id="name" required>
+                            <label for="name">Full Name</label>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" id="email" required>
+                            <label for="email">Email Address</label>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <textarea id="message" required></textarea>
+                        <label for="message">Your Message</label>
+                    </div>
+                    <button type="submit" class="submit-btn">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
