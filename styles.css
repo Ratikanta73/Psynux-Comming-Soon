@@ -490,3 +490,17 @@ body {
         height: 100px;
     }
 }
+
+.footer {
+    background: var(--light);
+    padding: 1.5rem 0;
+    text-align: center;
+    position: relative;
+    z-index: 2;
+    box-shadow: 0 -4px 20px rgba(0, 0, 0, 0.1);
+}
+
+.footer p {
+    color: var(--gray);
+    font-size: 0.9rem;
+}
